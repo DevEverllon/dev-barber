@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Barber - A sua barbearia</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg-home">
+      <header>
+        <nav class="header-content container">
+          <div class="header-icons" data-aos="fade-down">
+            <a href="#">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+          </div>
+
+          <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+            <img
+              data-aos="flip-up"
+              data-aos-delay="400"
+              data-aos-duration="1500" 
+              src="asserts/logo.svg" 
+              alt="logo da barbearia" />
+          </div>
+
+          <div class="header-button" data-aos="fade-down">
+            <a href="https://api.whatsapp.com/send?phone=5591940028922&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank">Agendar Horário</a>
+          </div>
+        </nav>
+
+        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+          <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+
+          <p>Horário de funcionamento: 09:00 ás 19:00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=5591940028922&text=Quero%20fazer%20um%20agendamento%20hoje!" class="button-contact" target="_blank">
+            Agendar horário
+          </a>
+        </main>
+      </header>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="about-content container">
+        <div data-aos="zoom-in" data-aos-delay="100">
+          <img src="asserts/images.svg" alt="Imagem sobre a barbearia" />
+        </div>
+
+        <div class="about-description" data-aos="zoom-out-left" data-aos-delay="250">
+          <h2>Sobre</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+            tempore? Eveniet iusto voluptatibus praesentium culpa quod maxime
+            earum neque, ad doloribus ex itaque distinctio illo, a obcaecati
+            adipisci nostrum? Numquam!
+          </p>
+
+          <p>
+            Horário de funcionamento <strong>09:00</strong> ás
+            <strong>19:00</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <div class="services-content container">
+        <h2>Serviços</h2>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+          dignissimos est asperiores saepe necessitatibus earum non iste,
+          eligendi illo optio illum suscipit dolorem in magni, iusto at quam
+          ipsa alias!
+        </p>
+      </div>
+
+      <section class="haircuts">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+          <img src="asserts/corte1.png" alt="corte normal" />
+
+          <div class="haircut-info">
+                <h3>Corte normal</h3>
+
+                <button>R$ 45,00</button>
+          </div>
+        </div>
+
+        <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+            <img src="asserts/corte2.png" alt="corte normal" />
+  
+            <div class="haircut-info">
+                  <h3>Barba completa</h3>
+  
+                  <button>R$ 34,49</button>
+            </div>
+          </div>
+
+          <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+            <img src="asserts/corte3.png" alt="corte normal" />
+  
+            <div class="haircut-info">
+                  <h3>Corte e barba</h3>
+  
+                  <button>R$ 85,99</button>
+            </div>
+          </div>
+      </section>
+    </section>
+
+
+    <!-- FOoTER -->
+     <div class="services iframe">
+        <h2>Venha conhecer</h2>
+
+        <iframe
+            
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5293342869813!2d-48.479401725515935!3d-1.4564543358347533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48dd53a707dd1%3A0xbcd18f299ea50dd7!2sAv.%20Conselheiro%20Furtado%2C%20Bel%C3%A9m%20-%20PA!5e0!3m2!1spt-BR!2sbr!4v1745603962656!5m2!1spt-BR!2sbr" 
+            width="100%" 
+            height="600" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+     </div>
+
+     <footer class="footer">
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+  
+              <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+              </a>
+  
+              <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+              </a>
+        </div>
+
+        <div>
+            <img src="asserts/logo.svg" alt="logo barbearia">
+        </div>
+
+        <div>
+            <p>Copyright 2025 | Dev Barber - Todos os direitos reservados</p>
+        </div>
+
+     </footer>
+
+     <!-- BUTTON WPP -->
+      <a 
+        href="https://api.whatsapp.com/send?phone=5591940028922&text=Quero%20fazer%20um%20agendamento%20hoje!" 
+        class="btn-whatssapp" 
+        target="_blank"
+        data-aos="zoom-in-up" data-aos-delay="400"
+      >
+
+        <img src="asserts/whatssapp.svg" alt="buttons whatssapp">
+        <span class="tooltip-text">Agende seu horário</span>
+      </a>
+
+      <script src="script.js"></script>
+  </body>
+</html>
