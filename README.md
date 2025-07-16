@@ -1,7 +1,7 @@
 # DevBarber | Dev Éverllon
 **DevBarber** é uma landing page simples e intuitivo, ideal para quem quer mostrar seu negócio de forma visual e prática pela web.
 
-![Preview do projeto](preview-finanControl.png)
+![Preview do projeto](screencapture-deveverllon-github-io-dev-barber-2025-07-16-00_34_39.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
